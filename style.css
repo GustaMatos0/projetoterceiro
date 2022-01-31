@@ -1,8 +1,34 @@
-* {
-    background-color: black;
-}
+
 
 body {
     background-color: black;
-    color: white
+    color: #ffffff;
+    margin: 0;
+}
+#welcome {
+    background: linear-gradient(180deg, #000 0%, #FFF 100% );
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5%;
+}
+
+#txt-welcome > header {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#txt-welcome {
+    width: 66%;
+    height: fit-content;
+}
+
+#three {
+    font-size: 20rem;
+    width: 33%;
+}
+
+#three > h1 {
+    margin:0;
 }
