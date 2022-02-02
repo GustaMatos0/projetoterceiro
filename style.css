@@ -34,12 +34,13 @@ body {
 }
 
 #grid-alunos{
-    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    margin: 20 auto;
-    background-color: white;
+    max-width: 90%;
     padding: 10px;
+    margin: 20 auto;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .alunos{
@@ -48,10 +49,10 @@ body {
 }
 
 .foto{
+    display: block;
     height: 100px;
     width: 100px;
     border: 1px solid black;
-    display: block;
     margin: 0 auto;
 }
 
