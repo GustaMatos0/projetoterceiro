@@ -32,3 +32,30 @@ body {
 #three > h1 {
     margin:0;
 }
+
+#grid-alunos{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.alunos{
+    flex: 1 1 30px;
+    margin: 10px;
+}
+
+.alunos > img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+.alunos > h3, .alunos > p{
+    color: black;
+    text-align: center;
+}
